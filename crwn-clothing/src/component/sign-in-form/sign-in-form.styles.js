@@ -1,0 +1,25 @@
+
+import styled from 'styled-components';
+
+export const SignInContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  position: relative;
+    z-index: 1;
+    background-color: rgb(153, 129, 109);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  h2 {
+    margin: 10px 0;
+  }
+`;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px; /* add spacing between the buttons */
+  margin-top: 10px; /* optional: spacing from the password field */
+`;
